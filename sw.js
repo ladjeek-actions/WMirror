@@ -30,7 +30,7 @@ const handle = async function (req) {
     const domain = (urlStr.split('/'))[2]
     
     let qdomain
-    if(domain.indexOf("coderfan.cf")>-1){
+    if(domain.indexOf("superdo.cf")>-1){
     qdomain = domain.split('.')[0].replace(/\-/g, '.')
     }else{
     qdomain=domain
