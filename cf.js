@@ -4,8 +4,8 @@ addEventListener('fetch', event => {
 
 const handle = (req) => {
     if (req.url.indexOf('/sw.js') > -1) {
-        return fetch('https://tester.cyfan.top/WMirror/sw.js')
+        return fetch('https://superdo.cf/sw.js')
     } else {
-        return fetch('https://tester.cyfan.top/WMirror/')
+        return fetch('https://superdo.cf/')
     }
 }
